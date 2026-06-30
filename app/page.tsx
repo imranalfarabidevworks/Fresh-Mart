@@ -15,7 +15,7 @@ export default function Home() {
   const [activeCategory, setActiveCategory] = useState("All");
   return (
     <main>
-      <Navbar />
+          <Navbar onCategorySelect={setActiveCategory} />
       <Hero />
       <Categories onSelect={setActiveCategory} />
       <ProductGrid activeCategory={activeCategory} />

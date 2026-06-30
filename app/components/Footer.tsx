@@ -67,7 +67,7 @@ export default function Footer() {
         {/* Contact */}
         <div style={{ display:"flex", gap:28, flexWrap:"wrap", padding:"20px 0",
           borderTop:"1px solid rgba(255,255,255,0.06)", borderBottom:"1px solid rgba(255,255,255,0.06)", marginBottom:24 }}>
-          {[["📍","Dhaka, Bangladesh"],["📞","+880 1700-000000"],["✉️","hello@freshmart.com"],["🕐","Sat–Thu: 8AM–10PM"]].map(([icon,text])=>(
+          {[["📍","Dhaka, Bangladesh"],["📞","+880 1868688107"],["✉️","hello@freshmart.com"],["🕐","Sat–Thu: 8AM–10PM"]].map(([icon,text])=>(
             <div key={text} style={{ display:"flex", alignItems:"center", gap:8 }}>
               <span>{icon}</span>
               <span style={{ fontSize:13 }}>{text}</span>
